@@ -1,38 +1,81 @@
-.App {
+/* body {
+  background-color: darkcyan;
+}
+
+.container1 {
+  padding: 20px;
+}
+
+.title {
+  border: solid 2px blueviolet;
   text-align: center;
+  border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title h1 {
+  color: whitesmoke;
+  font-size: 45px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.container2 {
+  text-align: center;
+  padding: 20px;
+  border: solid 3px black;
+  border-radius: 20px;
+  height: auto;
+  width: auto;
+  background-color: aliceblue;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navigation label {
+  font-size: 20px;
+  color: darkcyan;
+  cursor: pointer;
+}
+
+.navigation label:hover {
+  color: darkblue
+}
+
+/* .title img {
+  width: 250px;
+  height: 150px;
+  opacity: 0.8;
+}
+
+.title {
+  display: flex;
+  justify-content: space-evenly;
+
+} */
+
+/* .container3 {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
+  
+
+  align-self: center;
+  border: dotted 3px black;
+  height: 300px;
+  width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+.container3 button {
+  align-self: flex-end;
+} */
+
+h1 {
+  color: darkblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  background-color: rgb(135, 116, 116);
 }
